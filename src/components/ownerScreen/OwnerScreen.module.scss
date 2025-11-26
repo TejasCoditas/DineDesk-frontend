@@ -1,0 +1,23 @@
+.Header
+{
+    display: flex;
+    justify-content: space-between;
+    
+
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px  1px  #ccc;
+    align-self: baseline;
+    
+    input{
+        
+        border-radius: 10px;
+        width: 200px;
+    }
+    .profile
+    {
+        padding: 0.3rem ;
+    
+    }
+
+}

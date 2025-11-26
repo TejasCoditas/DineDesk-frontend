@@ -1,0 +1,71 @@
+.Form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 8px 1px #ccc;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10%;
+    padding:  1rem ;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+ 
+   h2{
+    padding: 1rem;
+   }
+
+
+   input{
+        margin: 0.4rem;
+        padding: 0.5rem;
+        border-radius: 10px;
+        border: none;
+        border: 1px solid black;
+        display: block;
+    }
+
+    .Button{
+       
+   
+        display: flex;
+        justify-content: center;
+
+        button{
+            margin: 0.5rem;
+            background-color: plum;
+             padding: 0.5rem;
+             border-radius: 10px;
+
+        }
+       
+    }
+
+        .CloseButton{
+        position: absolute;
+        right: 0.5rem;
+        top:0.3rem;
+    }
+
+
+    p{
+        color: red;
+    }
+
+
+    select{
+        padding: 0.5rem ;
+        border-radius: 10px;
+
+        option{
+             padding: 0.8rem 1rem;
+        border-radius: 10px;
+        background-color: rgb(159, 188, 188);
+        }
+    }
+
+  
+}
+

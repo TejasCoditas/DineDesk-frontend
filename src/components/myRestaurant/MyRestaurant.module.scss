@@ -1,0 +1,72 @@
+.Header
+{
+    display: flex;
+    justify-content: space-between;
+    
+
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px  1px  #ccc;
+
+    
+    input{
+        
+        padding: 0.5rem;
+        border-radius: 10px;
+    }
+
+}
+
+
+
+    .CardContainer {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  padding: 20px;
+    background-color: rgb(197, 197, 244); 
+}
+
+.Card {
+  background-color: #E1E1E1C8;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px 1px #ccc;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  padding: 1rem;
+
+  &:hover {
+    transform: scale(1.03);
+  
+  }
+}
+
+.Image {
+  width: 100%;
+  height: 180px;
+  object-fit:fill;
+}
+
+.Info {
+  padding: 15px;
+}
+
+.Name {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.Rating {
+  color: #f39c12;
+  font-weight: bold;
+  margin: 0.5rem;
+}
+
+.Address {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+
+
+

@@ -1,0 +1,13 @@
+.Container
+{
+    display: flex;
+    flex-direction: column;
+
+
+    input[type="range"]
+    {
+        background-color: aqua;
+        padding: 0;
+        margin: 0;
+    }
+}
