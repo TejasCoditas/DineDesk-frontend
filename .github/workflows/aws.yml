@@ -36,7 +36,7 @@ jobs:
       id: env_secret
       run: |
         VALUE=$(aws secretsmanager get-secret-value \
-        --secret id ${{ secrets.VITE_BASE_URL_SECRET }} \
+        --secret-id ${{ secrets.VITE_BASE_URL_SECRET }} \
         --query SecretString \
         --output text
         )
