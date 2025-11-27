@@ -6,7 +6,7 @@ on:
 
 env:
   AWS_REGION: ap-south-1
-  ECR_REPOSITORY: ${{ secrets.ECR_URL }}
+  ECR_REPOSITORY: ${{ secrets.ECR_REPO_NAME }}
   ECS_SERVICE: ${{ secrets.ECS_SERVICE_ASSIGNMENT }}
   ECS_CLUSTER: ${{ secrets.ECS_CLUSTER_ASSIGNMENT }}
   ECS_TASK_DEFINITION: react_frontend
